@@ -1,0 +1,6 @@
+WinWaitActive("Sécurité Windows")
+Send($CmdLine[1])
+Send("{TAB}")
+Send($CmdLine[2])
+Send("{ENTER}")
+Sleep(5000)
